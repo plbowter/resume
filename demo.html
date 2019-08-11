@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>常用标签</title>
+  <style>
+    table {
+      border-collapse: collapse;
+    }
+  </style>
+</head>
+
+<body>
+  <a href='javascript:;'>QQ</a>
+  <form action='users' method='get'>
+    <label>用户名： <input type='text' name='username'></label>
+    <label>密码： <input type='password' name='password'></label>
+    喜欢的水果：
+    <label><input type='checkbox' name='fruit' value='orange'>桔子</label>
+    <label><input type='checkbox' name='fruit' value='banana'>香蕉</label>
+    是否喜欢看电影:
+    <label><input type='radio' name='movie'>是</label>
+    <label><input type='radio' name='movie'>否</label>
+    <select name='group'>
+      <option value=''>-</option>
+      <option value='1'>first</option>
+      <option value='2'>second</option>
+      <option value='3' disabled>thirst</option>
+      <option value='4' selected>four</option>
+    </select>
+    <textarea name='hoby' style='resize:none;width:100px;height:50px;'></textarea>
+    <input type='submit' value='提交'>
+  </form>
+  <table border='1'>
+    <colgroup>
+      <col width=100>
+      <col bgcolor=red width=200>
+      <col width=100>
+      <col width=70>
+    </colgroup>
+    <thead>
+      <tr>
+        <th>项目</th>
+        <th>姓名</th>
+        <th>班级</th>
+        <th>分数</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th></th>
+        <td>小明</td>
+        <td>1</td>
+        <td>94</td>
+      </tr>
+      <tr>
+        <th></th>
+        <td>小红</td>
+        <td>2</td>
+        <td>96</td>
+      </tr>
+      <tr>
+        <th>平均分</th>
+        <td></td>
+        <td></td>
+        <td>95</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <th>总分</th>
+        <td></td>
+        <td></td>
+        <td>190</td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+
+</html>
